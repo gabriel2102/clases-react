@@ -1,0 +1,104 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
+.cards-list{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.cards-list li a{
+  text-decoration: none;
+  color: black;
+}
+.cards-list li:hover{
+  
+  transform:scale(1.05);
+}
+.card{
+  background-color: white;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.card img{
+  border-radius: 50%;
+}
+.main{
+  background-color: white;
+}
+.main a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.main a:hover{
+  text-decoration: underline;
+}
+.sub-menu a{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.sub-menu a:hover{
+  text-decoration: underline;
+}
+.episodios {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: left;
+}
+.episodios li{
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 30px;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.page-personaje{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  margin: 0 auto;
+  padding: 30px;
+  gap: 30px;
+}
+.page-personaje img{
+  border-radius: 50%;
+}
+.personaje-content{
+
+  text-align: left;
+  background-color: rgb(243, 239, 239);
+  padding: 0 50px;
+  border-radius: 20px;
+}
+.personaje-content button{
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
